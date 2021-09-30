@@ -1,63 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <title>Yuan Zhang | Critical Computation Portfolio</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                 <a href="#" class="nav_logo">Alexa</a>
+
+                 <div class="nav_menu" id="nav-menu">
+                     <ul class="nav_list grid">
+                         <li class="nav_item">
+                             <a href="#home" class="nav_link">
+                                <i class="material-icons nav_icon">home</i>Home
+                             </a>
+                         </li>
+                         <li class="nav_item">
+                            <a href="#about" class="nav_link">
+                                <i class="material-icons nav_icon">person</i> About
+                            </a>
+                        </li>
+                         <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <!-- <i class="material-icons nav_icon">description</i>  -->
+                                <span class="material-icons nav_icon">
+                                    description
+                                    </span>
+                                Skills
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#services" class="nav_link">
+                                <i class="material-icons nav_icon">work</i> 
+                                Services
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#portfolio" class="nav_link">
+                                <i class="material-icons nav_icon">collections</i> 
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                           <a href="#contact" class="nav_link">
+                               <i class="material-icons nav_icon">email</i> 
+                               Contact
+                           </a>
+                       </li>
+                     </ul>
+                     <i class="material-icons nav_close" id="nav-close">close</i>
+                 </div>
+                 <div class="nav_btns">
+                     <dicv class="nav_toggle" id="nav-toggle">
+                        <i class="material-icons" id="nav-app">apps</i>
+                     </dicv>
+                 </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container conainer grid">
+                    <div class="home_content grid">
+                        <!-- <div class="home_social">
+                            <a href="" class="home_social-icon">
+
+                            </a>
+                            <a href="" class="home_social-icon">
+                                
+                            </a>
+                            <a href="" class="home_social-icon">
+                                
+                            </a>
+                        </div> -->
+
+                       
 
 
+                        <div class="home_data">
+                            <h1 class="home_title">class Zane {
+                            <br>Data Visualization,
+                            <br>Creative Coding,
+                            <br>Visual Communication,
+                            <br>}
+                            </h1>
+                             <a href="#contact" class="button --flex"> contact me</a>
+                            <canvas class="home_blob" id="myCanvas" width="200" height="100"></canvas>
+
+                        </div>
+                    </div>
+
+                    <!-- <div class="home_img">
+                        29:11
+                        <i class="home_blob-img"></i>
+                        <canvas class="home_blob" id="myCanvas" width="200" height="100"></canvas>
+                        </div> -->
+
+                    <div class="home_scroll">
+                        <a href="#about" class="home_scroll-button button--flex">
+                            <!-- <i class="material-icons home_scroll-mouse"> </i> -->
+                            <!-- <span class="material-icons home_scroll-name">scroll down</span> -->
+                           <i class="material-icons home_scroll-arrow">arrow_downward</i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section_title">About me</h2>
+                <span class="section_subtitle">My introduction</span>
+                <div class="about_container container grid">
+                    <img src="assets/img/about.jpg" alt="standing male human" class="about_img">
+                    <div class="about_data">
+                        <p class="about_description">Creative technologist, data visualizer, graphic designer, researcher, illustrator, translator, UI/UX designer</p>
+                        <div class="about_info">
+                            <!-- <div>
+                                <span class="about_info-title"></span> 40:09
+                            </div> -->
+
+                            <div class="about_buttons">
+                                <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">
+                                Download CV <span class="material-icons button_icon">
+                                        file_download
+                                        </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
 
 
+            </section>
 
-</head>
-
-<body>
-    <!--     <body bgcolor="#bfbfbf"></body> -->
-    <div class="backgrounda">
-
-        <!--           <iframe src="https://editor.p5js.org/yuan/embed/a3yEknN_s"></iframe> -->
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
 
 
-    </div>
-    <!-- navigation menu -->
-    <div class="nav">
-        <h1><a href="index.html">Yuan Zhang</a></h1>
-        <li><strong>1</strong><a href="p1.html">      Lost & Found</a></li>
-        <li><strong>2</strong><a href="p2.html">  Generate Form</a></li>
-        <li><strong>3</strong><a href="p3.html">  Experimental Clock</a></li>
-        <li><strong>4</strong><a href="p4.html">  Exquisite Corpse</a></li>
-        <li><strong>5</strong><a href="p5.html">  Anti-surveillance Tool</a></li>
-        <li><strong>6</strong><a href="p6.html">  Experimental Camera</a></li>
-        <li><strong>7</strong><a href="p7.html">  Bitcamp Game</a></li>
-        <li><strong>8</strong><a href="p8.html">  Consentful Interface</a></li>
-        <li><strong>9</strong><a href="p9.html">  Data Portrait</a></li>
-        <li><strong>10</strong><a href="p10.html"> Translation Device</a></li>
-        <li><a href="https://editor.p5js.org/yuan/full/a3yEknN_s">~rainbow~</a></li>
-    </div>
+            </section>
 
-    <!-- main content -->
-    <div class="content">
-        <h1>
-            <iframe src="https://cdn.glitch.com/14fb8479-6964-4fb5-bb2b-6d9734a60a34%2Fgiphy.gif?v=1599565295636" width="480" height="204"></iframe>
-        </h1>
-    </div>
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                
+
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                
+
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
 
 
-    <!--     
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.min.js"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/addons/p5.sound.min.js"></script> -->
+            </section>
 
-    <!-- 	<script type="text/javascript" src="sketch.js"></script> -->
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                
+
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
 
 
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+            </section>
+        </main>
 
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-</body>
-<!--         <iframe width="200" height="600"  src="https://editor.p5js.org/yuan/embed/C4YodBRIUF"></iframe> -->
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
 
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
